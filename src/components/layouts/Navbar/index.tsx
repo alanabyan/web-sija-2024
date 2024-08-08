@@ -10,7 +10,7 @@ const inter = Anybody({
 const  Navbar = () => {
     return (
         <main className={`${inter.className} flex justify-center`}>
-            <nav className="flex fixed bg-[#020F1F] bg-opacity-65 backdrop-filter-[20px] backdrop-blur-[1px] w-[95%] h-24 p-5 m-5 shadow-[0px_0px_50px_1px_#000000] rounded-2xl">
+            <nav className="z-10 flex fixed bg-[#020F1F] bg-opacity-65 backdrop-filter-[20px] backdrop-blur-[5px] w-[95%] h-24 p-5 m-5 shadow-[0px_0px_50px_1px_#000000] rounded-2xl">
               <Image src={'/sija.svg'} alt="logo-sija" width={70} height={70} />  
               <ul className="flex justify-center items-center text-[20px] text-white">
                 <li className="p-6">Home</li>
