@@ -8,9 +8,9 @@ const inter = Anybody({
 
 const SkillsView = () => {
     return (
-        <div className={`${inter.className} bg-[#051529] w-full h-full flex flex-col justify-center`}>
-            <h1 className="text-white text-[64px] pt-48 mx-auto">Core Skills</h1>
-            <div className="flex">
+        <div className={`${inter.className} bg-[#051529] w-full h-full flex flex-col justify-center pb-40`}>
+            <h1 className="text-white text-[64px] pt-48 flex justify-center items-center">Basic & Core Skills</h1>
+            <div className="flex justify-center items-center">
                 <Card />
             </div>
         </div>
